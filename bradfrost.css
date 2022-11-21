@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.one {
+    background-color: rgb(231, 215, 212);
+    color: #322d2d;
+}
+
+.two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    background-color: rgba(255, 165, 0, 0.9);
+}
+
+.three {
+    background-color: #322d2d;
+}
